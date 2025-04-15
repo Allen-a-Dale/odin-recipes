@@ -1,0 +1,126 @@
+h1 {
+  color: rgb(212, 128, 212);
+  background-color: green;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 35px;
+  padding: 20px;
+  margin: 50px 700px;
+  text-align: center;
+  border-radius: 300px;
+  border-style: solid;
+  border-color: rgb(1, 39, 11);
+  text-decoration: none;
+}
+
+#r1 {
+  color: red;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  padding: 40px;
+  background-image: url(/sushi.jpeg);
+  background-repeat: no-repeat;
+  background-position: 1200px;
+  background-size: 160px 160px;
+}
+
+#r2 {
+  color: red;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  padding: 40px;
+  background-image: url(/boerenkool.jpeg);
+  background-repeat: no-repeat;
+  background-position: 1220px;
+  background-size: 160px 160px;
+}
+
+#r3 {
+  color: red;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  padding: 40px;
+  background-image: url(/chicken_salad.jpg);
+  background-repeat: no-repeat;
+  background-position: 1130px;
+  background-size: 160px 160px;
+}
+
+.link.recipe a:hover {
+  color: gold;
+}
+
+.link.recipe a {
+  color: green;
+}
+
+.link.title {
+  color: rgb(212, 128, 212);
+  text-decoration: none;
+  font-size: 35px;
+}
+
+.boerenkoolstamppot {
+  display: block;
+  margin: 0 auto;
+  border-radius: 100px;
+}
+
+.sushi_salad {
+  display: block;
+  margin: 0 auto;
+  border-radius: 100px;
+}
+
+.chicken_apple_salad {
+  display: block;
+  margin: 0 auto;
+  border-radius: 100px;
+}
+
+p {
+  text-align: center;
+
+  font-family: "Courier New", Courier, monospace;
+}
+
+ul {
+  font-family: "Courier New", Courier, monospace;
+}
+
+ol {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.headerRecipe {
+  font-size: 40px;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.Description {
+  font-size: 40px;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.Ingredients {
+  font-size: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.Steps {
+  font-size: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
