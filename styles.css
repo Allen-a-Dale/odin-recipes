@@ -10,7 +10,6 @@ h1 {
   border-radius: 300px;
   border-style: solid;
   border-color: rgb(1, 39, 11);
-  text-decoration: none;
 }
 
 #r1 {
@@ -22,7 +21,7 @@ h1 {
   padding: 40px;
   background-image: url(/sushi.jpeg);
   background-repeat: no-repeat;
-  background-position: 1200px;
+  background-position: 1250px;
   background-size: 160px 160px;
 }
 
@@ -33,9 +32,9 @@ h1 {
   text-align: center;
   position: relative;
   padding: 40px;
-  background-image: url(/boerenkool.jpeg);
+  background-image: url(/chicken_salad.jpg);
   background-repeat: no-repeat;
-  background-position: 1220px;
+  background-position: 1270px;
   background-size: 160px 160px;
 }
 
@@ -46,9 +45,9 @@ h1 {
   text-align: center;
   position: relative;
   padding: 40px;
-  background-image: url(/chicken_salad.jpg);
+  background-image: url(/boerenkool.jpeg);
   background-repeat: no-repeat;
-  background-position: 1130px;
+  background-position: 1180px;
   background-size: 160px 160px;
 }
 
@@ -57,13 +56,18 @@ h1 {
 }
 
 .link.recipe a {
+  text-decoration: none;
   color: green;
 }
 
 .link.title {
-  color: rgb(212, 128, 212);
+  padding: 1px;
   text-decoration: none;
-  font-size: 35px;
+  font-size: 24px;
+  color: rgb(212, 128, 212);
+  border-radius: 10px;
+  background-color: wheat;
+  color: darkgreen;
 }
 
 .boerenkoolstamppot {
